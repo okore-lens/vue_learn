@@ -1,0 +1,68 @@
+div {
+  text-align: center;
+}
+.card {
+  background-color: grey;
+  width: 50%;
+  margin: 40px auto;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 4px 4px gray;
+}
+.twin-cards {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.twin-cards > ul {
+  background-color: purple;
+  width: 40%;
+}
+ul {
+  background-color: grey;
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 8px 4px gray;
+}
+h5 {
+  text-decoration: underline;
+  margin: 0;
+  margin-bottom: 5px;
+}
+li {
+  text-align: start;
+  list-style: none;
+  margin-bottom: 5px;
+  color: white;
+}
+hr {
+  border: 1px solid red;
+  width: 40%;
+  margin: 20px auto;
+}
+p {
+  color: purple;
+}
+input,
+select {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+button {
+  margin: 10px;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
